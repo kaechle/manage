@@ -1,0 +1,101 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.nav__menu a,
+.nav__menu a:hover,
+.nav__menu a:active {
+  font-size: 12px;
+  color: $dark-blue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main__button {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.header__copy {
+  h1 {
+    font-weight: 700;
+    font-size: 52px;
+    color: $dark-blue;
+  }
+
+  p {
+    color: $dark-gray-blue;
+    line-height: 1.75rem;
+  }
+}
+
+.explainer__content {
+  h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: $dark-blue;
+  }
+
+  p {
+    color: $dark-gray-blue;
+    line-height: 1.7rem;
+  }
+
+  .explainer__steps {
+    .explainer__singlestepnumber {
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: $dark-blue;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: $dark-blue;
+}
+
+.cta h2 {
+  color: white;
+  font-weight: 500;
+  line-height: 2.75rem;
+}
+
+p {
+  color: $dark-gray-blue;
+  line-height: 1.7rem;
+}
+
+.explainer__stepdetails p {
+  padding-right: 2rem;
+}
+
+.footer__nav a,
+.footer__nav a:hover,
+.footer__nav a:active {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__subscribe p {
+  color: hsl(233, 3%, 49%);
+  font-size: 12px;
+}
+
+.main__search {
+  color: $dark-blue;
+  font-size: 13px;
+  text-align: center;
+
+  ::placeholder {
+    color: $very-light-gray;
+  }
+}
