@@ -1,6 +1,8 @@
 import SingleTestimonial from "./SingleTestimonial";
 import testimonialsData from "./data/testimonialsData";
 
+// TODO: Get the avatar images working correctly
+
 const Testimonials = () => {
   return (
     <div className="testimonials">
